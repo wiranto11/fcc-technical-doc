@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!--!===== NAVBAR ===== -->
+
+    <nav id="navbar">
+      <header class="nav-tile">Cascading Style Sheets</header>
+      <ul>
+        <li class="nav-title">
+          <a href="#CSS_Introductions" class="nav-link">CSS Introductions</a>
+        </li>
+        <li class="nav-title">
+          <a href="#CSS_Syntax" class="nav-link">CSS Syntax</a>
+        </li>
+        <li class="nav-title">
+          <a href="#Example" class="nav-link">Example</a>
+        </li>
+        <li class="nav-title">
+          <a href="#CSS_Advanced" class="nav-link">CSS Advanced</a>
+        </li>
+        <li class="nav-title">
+          <a href="#About_CSS" class="nav-link">About CSS</a>
+        </li>
+        <li class="nav-title">
+          <a href="#Learn_More" class="nav-link">Learn More</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--!===== MAIN ===== -->
+    <main class="doc" id="main-doc">
+      <!--todo ==Section== -->
+      <section class="main-section" id="CSS_Introductions">
+        <header class="title">CSS Introductions</header>
+        <article>
+          <p class="sub-title">What is CSS?</p>
+          <ul>
+            <li>CSS stands for Cascading Style Sheets</li>
+            <li>
+              CSS describes how HTML elements are to be displayed on screen,
+              paper, or in other media
+            </li>
+            <li>
+              CSS saves a lot of work. It can control the layout of multiple web
+              pages all at once
+            </li>
+          </ul>
+          <code
+            >body { background-color: lightblue; } h1 { color: white;
+            text-align: center; } p { font-family: verdana; font-size: 20px;
+            }</code
+          >
+        </article>
+      </section>
+
+      <!--todo ==Section== -->
+      <section class="main-section" id="CSS_Syntax">
+        <header class="title">CSS Syntax</header>
+        <article>
+          <p class="sub-title"></p>
+          <p>A CSS rule consists of a selector and a declaration block.</p>
+          <img src="./img/img_selector.gif" alt="" />
+          <ul>
+            <li>The selector points to the HTML element you want to style.</li>
+            <li>
+              The declaration block contains one or more declarations separated
+              by semicolons.
+            </li>
+            <li>
+              Each declaration includes a CSS property name and a value,
+              separated by a colon.
+            </li>
+            <li>
+              Multiple CSS declarations are separated with semicolons, and
+              declaration blocks are surrounded by curly braces.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!--todo ==Section== -->
+      <section class="main-section" id="Example">
+        <header class="title">Example</header>
+        <article>
+          <p>
+            In this example all p elements will be center-aligned, with a red
+            text color:
+          </p>
+          <code>p { color: red; text-align: center; }</code>
+        </article>
+      </section>
+
+      <!--todo ==Section== -->
+      <section class="main-section" id="CSS_Advanced">
+        <header class="title">CSS Advanced</header>
+        <article>
+          <p>
+            Advanced CSS is a set of tools and techniques that help you create
+            the modern websites that employers and clients are looking for.
+            These skills help you make websites more responsive more easily so,
+            whatever kind or size of device someone is using to view your site,
+            it looks fantastic and works well. No more overlapping images or
+            tiny text!
+          </p>
+          <p>
+            Advanced CSS also allows you to structure your web pages more
+            efficiently. Yep, that means you can forget floats (!!!) but still
+            position and align elements exactly the way you want and have your
+            content flexibly change size or location just the way you need it
+            to. Or you can use advanced CSS to completely customize a site by
+            styling only certain elements or automatically adapting content.
+          </p>
+          <code></code>
+          <p>
+            Not only will advanced CSS skills make it possible for you to build
+            and style the kinds of sites that are most in demand nowadays, but
+            they’ll also let you do it more quickly, easily, and efficiently.
+            You’ll be able to get more done with less code, and the code you do
+            write will be more understandable and organized, so you’ll be able
+            to work better both on your own and on a team.
+          </p>
+        </article>
+      </section>
+
+      <!--todo ==Section== -->
+      <section class="main-section" id="About_CSS">
+        <header class="title">About CSS</header>
+        <article>
+          <p>
+            CSS was first proposed by Håkon Wium Lie on October 10, 1994. At the
+            time, Lie was working with Tim Berners-Lee at CERN. Several other
+            style sheet languages for the web were proposed around the same
+            time, and discussions on public mailing lists and inside World Wide
+            Web Consortium resulted in the first W3C CSS Recommendation (CSS1)
+            being released in 1996. In particular, a proposal by Bert Bos was
+            influential; he became co-author of CSS1, and is regarded as
+            co-creator of CSS.
+          </p>
+          <code></code>
+          <p>
+            Style sheets have existed in one form or another since the
+            beginnings of Standard Generalized Markup Language (SGML) in the
+            1980s, and CSS was developed to provide style sheets for the web.
+            One requirement for a web style sheet language was for style sheets
+            to come from different sources on the web. Therefore, existing style
+            sheet languages like DSSSL and FOSI were not suitable. CSS, on the
+            other hand, let a document's style be influenced by multiple style
+            sheets by way of "cascading" styles.
+          </p>
+          <p>
+            As HTML grew, it came to encompass a wider variety of stylistic
+            capabilities to meet the demands of web developers. This evolution
+            gave the designer more control over site appearance, at the cost of
+            more complex HTML. Variations in web browser implementations, such
+            as ViolaWWW and WorldWideWeb, made consistent site appearance
+            difficult, and users had less control over how web content was
+            displayed. The browser/editor developed by Tim Berners-Lee had style
+            sheets that were hard-coded into the program. The style sheets could
+            therefore not be linked to documents on the web. Robert Cailliau,
+            also of CERN, wanted to separate the structure from the presentation
+            so that different style sheets could describe different presentation
+            for printing, screen-based presentations, and editors.
+          </p>
+        </article>
+      </section>
+
+      <!--todo ==Section== -->
+      <section class="main-section" id="Learn_More">
+        <header class="title">Learn More</header>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab debitis
+            mollitia laboriosam accusantium ut rem officia error sapiente!
+            Corporis quasi facilis error maxime magni voluptas a nam iure, velit
+            natus laboriosam nulla harum rem ipsam quaerat, qui veniam molestias
+            atque debitis nisi accusantium, obcaecati fugit saepe labore! Porro,
+            unde debitis.
+          </p>
+          <code></code>
+        </article>
+      </section>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
